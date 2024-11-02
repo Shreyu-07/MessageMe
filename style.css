@@ -1,0 +1,227 @@
+*{
+    margin: 0%;
+    padding: 0%;
+    background-color: rgba(0, 0, 0, 0.118);
+}
+.box1{
+    position: absolute;
+    width: 40vw;
+    height: 60vh;
+    background-color: aliceblue;
+    box-shadow: 5cm;
+    top: 4cm;
+    left: 11cm;
+    border-radius: 1cm;
+    background-origin: padding-box;
+    border-top: black;
+    border-bottom: black;
+    border-width: 6cm;
+    border-color: black;
+    border-bottom-color: black;
+    cursor: pointer;
+}
+.box1:hover{
+    background-color: rgba(0, 255, 85, 0.414);
+}
+#name{
+    position: absolute;
+    top: 2.2cm;
+    left: 1cm;
+    width: 34vw;
+    height: 8vh;
+    border: 10cm;
+    border-color: black;
+    border-radius: 0.2cm;
+    font-size: 0.5cm;
+    outline: none;
+    padding-left:0.8cm;
+}
+#email{
+    position: absolute;
+    top: 4cm;
+    left: 1cm;
+    width: 34vw;
+    height: 8vh;
+    border: 10cm;
+    border-color: black;
+    border-radius: 0.2cm;
+    padding-left: 0.8cm;
+    outline: none;
+    font-size: 0.5cm;
+
+}
+#Message{
+    position: absolute;
+    top: 5.8cm;
+    left: 1cm;
+    width: 34vw;
+    height: 18vh;
+    border: 10cm;
+    border-color: black;
+    border-radius: 0.2cm;
+    padding-left: 0.8cm;
+    font-size: 0.5cm;
+    padding-top: 0.3cm;
+    outline: none;
+}
+#name:hover{
+    background-color: rgba(179, 255, 0, 0.737);
+}
+#email:hover{
+    background-color: rgba(179, 255, 0, 0.737);
+}
+#Message:hover{
+    background-color:rgba(179, 255, 0, 0.737);
+}
+.btn{
+    position: absolute;
+    top: 9.8cm;
+    width: 36vw;
+    border-radius: 0.2cm;
+    height: 7vh;
+    left: 1cm;
+    background-color: rgb(0, 0, 255);
+    font-size: 0.8cm;
+    cursor: pointer;
+}
+.btn:hover{
+    background-color:rgb(255, 0, 0);
+}
+
+.span1{
+    background: none;
+    position: relative;
+    top: 0.2cm;
+    font-size: 0.7cm;
+}
+.span{
+    background-color: rgb(16, 238, 16);
+    position: absolute;
+    text-align: center;
+    left: 1cm;
+    top: 0.5cm;
+    width: 36vw;
+    height: 7vh;
+    border-radius: 1cm;
+    visibility:hidden;
+}
+.MessageMe{
+    background: none;
+    position: relative;
+    text-align: center;
+    top: 0.4cm;
+    font-size: 1cm;
+    font-family:Papyrus;
+}
+/* ----------------------------------------------------------------------------------- */
+
+@media (max-width :412px) {
+
+    .box1{
+        position: absolute;
+        width: 9cm;
+        height: 11.5cm;
+        background-color: aliceblue;
+        box-shadow: 5cm;
+        top: 3cm;
+        left: 0.3cm;
+        border-radius: 1cm;
+        background-origin: padding-box;
+        border-top: black;
+        border-bottom: black;
+        border-width: 6cm;
+        border-color: black;
+        border-bottom-color: black;
+        cursor: pointer;
+    }
+    .box1:hover{
+        background-color: rgba(0, 255, 85, 0.414);
+    }
+    #name{
+        position: absolute;
+        top: 2.2cm;
+        left: 1cm;
+        width: 7cm;
+        height: 1.5cm;
+        border: 10cm;
+        border-color: black;
+        border-radius: 0.2cm;
+        outline: none;
+        padding-left:0.3cm;
+    }
+    #email{
+        position: absolute;
+        top: 4cm;
+        left: 1cm;
+        width: 7cm;
+        height: 1.5cm;
+        border: 10cm;
+        border-color: black;
+        border-radius: 0.2cm;
+        padding-left: 0.3cm;
+        outline: none;
+    
+    }
+    #Message{
+        position: absolute;
+        top: 5.8cm;
+        left: 1cm;
+        width: 7cm;
+        height: 2.5cm;
+        border: 10cm;
+        border-color: black;
+        border-radius: 0.2cm;
+        padding-left: 0.3cm;
+        padding-top: 0.3cm;
+        outline: none;
+    }
+    #name:hover{
+        background-color: rgba(179, 255, 0, 0.737);
+    }
+    #email:hover{
+        background-color: rgba(179, 255, 0, 0.737);
+    }
+    #Message:hover{
+        background-color:rgba(179, 255, 0, 0.737);
+    }
+    .btn{
+        position: absolute;
+        top: 9cm;
+        width: 7.3cm;
+        border-radius: 0.2cm;
+        height: 2cm;
+        left: 1cm;
+        background-color: rgb(0, 0, 255);
+        font-size: 0.8cm;
+        cursor: pointer;
+    }
+    .btn:hover{
+        background-color:rgb(255, 0, 0);
+    }
+    
+    .span1{
+        background: none;
+        position: relative;
+        top: 0.2cm;
+        font-size: 0.7cm;
+    }
+    .span{
+        background-color: rgb(16, 238, 16);
+        position: absolute;
+        text-align: center;
+        left: 1cm;
+        top: 0.5cm;
+        width: 7cm;
+        height: 7vh;
+        border-radius: 1cm;
+        visibility:hidden;
+    }
+    .MessageMe{
+        background: none;
+        position: relative;
+        text-align: center;
+        top: 0.4cm;
+        font-size: 1.2cm;
+        font-family: cursive;
+    }
+}
